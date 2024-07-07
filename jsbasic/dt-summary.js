@@ -38,3 +38,9 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+console.log(typeof outsideTemp);
+
+//type of datatype of null value is object
+
+
+//non primitive type of is object only and for function is function object
