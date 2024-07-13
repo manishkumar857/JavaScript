@@ -46,9 +46,21 @@ console.log(typeof outsideTemp);
 //non primitive type of is object only and for function is function object
 
 
-//stack(Primitive, a copy is given) , heap(Non primitive)
+//stack(Primitive, a copy is given) , heap(Non primitive,original is given)
 let myytname = "abc"
 let another = myytname
 another = "lcd"
 console.log(myytname);
 console.log(another);
+
+let user = {
+    email:"abc@gmail.com",
+    upi:"abc@ybl"
+
+}
+let user2 = user
+
+user2.email="bcb@gmail.com"
+
+console.log(user.email);
+console.log(user2.email);
