@@ -44,3 +44,11 @@ console.log(typeof outsideTemp);
 
 
 //non primitive type of is object only and for function is function object
+
+
+//stack(Primitive, a copy is given) , heap(Non primitive)
+let myytname = "abc"
+let another = myytname
+another = "lcd"
+console.log(myytname);
+console.log(another);
