@@ -53,6 +53,7 @@ another = "lcd"
 console.log(myytname);
 console.log(another);
 
+//heap non primitive
 let user = {
     email:"abc@gmail.com",
     upi:"abc@ybl"
