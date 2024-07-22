@@ -14,4 +14,4 @@ let isLoggedIn = false
 
 //object
 
-// console.log(typeof null); is object but for undefined is undefined only and for the change 
+// console.log(typeof null); is object but for undefined is undefined only 
