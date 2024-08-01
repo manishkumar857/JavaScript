@@ -20,3 +20,4 @@ let booleanc = Boolean(booln)
 console.log(typeof booleanc);
 console.log(booleanc);
 //conversion
+//from one dt to other
