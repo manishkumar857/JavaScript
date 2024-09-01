@@ -16,5 +16,16 @@ console.log(gameName.indexOf('o'))
 const hello = gameName.substring(0,5)
 console.log(hello)
 
-const helloslic = gameName.slice(-8,4)
+const helloslic = gameName.slice(-8,5)
 console.log(helloslic)
+
+const newstringone = "    Manish     "
+console.log(newstringone)
+console.log(newstringone.trim()) //remove the spaces from start and end
+
+const url = "www.youtube-com"
+console.log(url.replace("-","."))
+console.log(url.includes("sundar")); //check if word is present or not
+console.log(url.includes("youtube"));
+console.log(url.split("-"))
+
