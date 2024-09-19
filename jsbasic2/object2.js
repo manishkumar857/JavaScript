@@ -75,7 +75,7 @@ console.log(ins);
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
-// } //not object treated as json
+// } //not object treated as json for api concept
 
 [
     {},
