@@ -20,3 +20,35 @@ if(true){
 console.log(a)
 console.log(b)
 
+function one(){
+    const username = "manish"
+    function two(){
+        const web = "www"
+        console.log(username)
+    }
+    //console.log(web) //can't access it outside fun
+    two()
+}
+one()
+
+
+if(true){
+    const username = "man"
+    if(username=="man"){
+        const wb="av"
+        console.log(username+wb)
+    }
+    //console.log(wb) //willnot work outside block
+}
+
+//++++++++++++interesting+++++++++++++++
+
+console.log(addone(5))
+function addone(num){
+    return num+1
+}
+
+// addtwo(5)
+// const addTwo =function(num){
+//     return num+2
+// } // we can't call this type of function  before defining the functiom
