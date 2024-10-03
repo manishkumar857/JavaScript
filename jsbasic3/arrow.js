@@ -47,4 +47,3 @@ user.welcomemsg()
 const addtwo =(num1,num2)=>({name:"manish"})
 console.log(addtwo(3,5))
 
-/
