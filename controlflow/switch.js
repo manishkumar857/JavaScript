@@ -28,3 +28,5 @@ switch(age){
         console.log("default case")
         break;
 }
+
+// if we dont write break it will execute all the code below after match except DEFAULT CASE
