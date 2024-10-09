@@ -24,3 +24,10 @@ for(const [key,value] of map){
     
 }
 
+// const myobject ={
+//     'name':'manish',
+//     'age':16
+// }
+// for(const [key,value] of myobject){
+//     console.log(key,":",value);
+// } //object is not iterable
