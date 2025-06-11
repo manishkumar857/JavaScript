@@ -14,3 +14,6 @@ document.body.childNodes[1].innerText = "Heading Changed";
 
 let heading = document.getElementById("heading");
 console.dir(heading);
+
+let class1 = document.getElementsByClassName("back");
+console.dir(class1);
