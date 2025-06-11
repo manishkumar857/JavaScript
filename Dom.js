@@ -6,8 +6,11 @@
 console.dir(document);
 console.dir(document.body);
 console.log(document.body);
-document.body.style.background="green";
+document.body.style.background="pink";
 
 console.dir(document.body.childNodes[1]);
 
 document.body.childNodes[1].innerText = "Heading Changed";
+
+let heading = document.getElementById("heading");
+console.dir(heading);

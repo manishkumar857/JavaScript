@@ -5,9 +5,9 @@ body {
     margin: 50px;
 }
 
-/* Heading styles */
-h1 {
-    color: #333;
+/* Heading style using the id  */
+#heading {
+    color: #ea2709;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 
 /* Button styling */
 button {
-    background-color: #4CAF50;
+    background-color: #e233b3;
     color: white;
     border: none;
     padding: 10px 20px;
