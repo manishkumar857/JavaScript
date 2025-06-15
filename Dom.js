@@ -37,3 +37,26 @@ console.dir(para);
 
 let firstelement = document.querySelector("#heading");//return matching first element
 console.dir(firstelement);
+
+
+//dom manipulation
+
+console.dir(firstelement.tagName);
+
+console.dir(document.querySelector("body").children);
+console.dir(document.querySelector("body").firstChild);
+console.dir(document.querySelector("body").lastChild);
+
+
+let bd = document.querySelector("body");
+console.dir(bd.innerText); //pure text
+console.dir(bd.innerHTML); //text with html content 
+
+
+let h1 = document.querySelector("h1");
+h1.innerHTML="<i>heading changed again</i>"
+
+let h2=document.querySelector("h2");
+console.dir(h2.innerText);
+
+console.dir(h2.textContent); //display hidden content as well
