@@ -42,3 +42,23 @@ btn1.removeEventListener("click",()=>{
 
 
 btn1.removeEventListener("click",handler5)
+
+
+//dark mode
+
+let buttonm = document.querySelector("#mode");
+let currMode = "light";
+
+buttonm.addEventListener("click",()=>{
+    if(currMode=="light"){
+        currMode="dark";
+        // document.querySelector("body").style.backgroundColor="black";
+        document.querySelector("body").classList.add("dark"); //implementing with classes
+        document.querySelector("body").classList.remove("white");
+    }else{
+        currMode = "light";
+        // document.querySelector("body").style.backgroundColor="white";
+        document.querySelector("body").classList.add("white");
+        document.querySelector("body").classList.remove("dark");
+    }
+})
